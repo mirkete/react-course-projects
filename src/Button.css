@@ -1,0 +1,11 @@
+.cr-button{
+    background-color: lightblue;
+    color:whitesmoke;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 5px; /*NO!*/
+}
