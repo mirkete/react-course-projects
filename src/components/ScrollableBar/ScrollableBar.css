@@ -1,0 +1,20 @@
+.rc-scrollable-bar{
+    display: flex;
+    gap: 10px;
+    transition: transform .2s ease;
+    position: relative;
+    overflow-x: scroll;
+}
+
+.rc-tag{
+    border-radius: 10px;
+    padding: 8px 16px;
+    background-color: lightgrey;
+    border: none;
+    outline: none;
+}
+
+.rc-tag-selected{
+    background-color: #1f1f1f;
+    color: white;
+}

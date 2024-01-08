@@ -1,0 +1,20 @@
+.rc-board{
+    display: grid;
+    grid-template: repeat(4, 100px) / repeat(3, 100px);
+    place-items: stretch;
+    gap:10px;
+    padding: 20px;
+}
+
+.restart-button{
+    cursor: pointer;
+    grid-column: 2 / 3;
+    place-self: center;
+    padding: 12px;
+    background-color: rgb(248, 72, 72);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 16px;
+}
