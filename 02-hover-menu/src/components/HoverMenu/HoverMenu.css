@@ -1,0 +1,18 @@
+.menu{
+    position: relative;
+}
+
+.menu::after{
+    content: "||";
+    position: absolute;
+    display: grid;
+    place-content: center;
+    color: white;
+    width: 16px;
+    height: 100%;
+    top: 0px;
+    left: -10px;
+    background-color: grey;
+    border-radius: 10px 0px 0px 10px;
+    cursor: pointer;
+}

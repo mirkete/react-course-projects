@@ -10,11 +10,17 @@
     cursor: pointer;
     grid-column: 2 / 3;
     place-self: center;
-    padding: 12px;
+    padding: 8px;
     background-color: rgb(248, 72, 72);
     color: white;
     border: none;
     outline: none;
-    border-radius: 20px;
+    border-radius: 10px;
+    border: 2px solid transparent;
     font-size: 16px;
+}
+
+.restart-button:hover{
+    background-color: rgb(248, 72, 72, 0.2);
+    border: 2px solid rgb(248, 72, 72);
 }

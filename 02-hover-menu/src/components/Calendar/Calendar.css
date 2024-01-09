@@ -1,0 +1,22 @@
+.container{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+
+.calendar{
+    display: grid;
+    grid-template: repeat(5, 50px) / repeat(7, 50px);
+    grid-auto-rows: 50px;
+    background: repeating-linear-gradient(to bottom, rgb(242, 242, 242), rgb(242, 242, 242) 50px, white 50px, white 100px) repeat;
+}
+
+.calendar > *{
+    display: grid;
+    place-content: center;
+}
+
+.selected{
+    background-color: rgb(33, 133, 254);
+    color: white;
+}
